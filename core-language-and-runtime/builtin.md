@@ -1,6 +1,24 @@
 ## `builtin`
 > 內建函數與型別
 
+### 型別
+
+| 型別 | 說明 |
+|-|-|
+| `bool` | 布林值 |
+| `byte` | `uint8` 別名 |
+| `rune` | `int32` 別名，代表 Unicode code point |
+| `int`, `int8`, `int16`, `int32`, `int64` | 有號整數 |
+| `uint`, `uint8`, `uint16`, `uint32`, `uint64` | 無號整數 |
+| `uintptr` | 儲存指標的整數型別 |
+| `float32`, `float64` | 浮點數 |
+| `complex64`, `complex128` | 複數 |
+| `string` | 字串 |
+| `error` | 錯誤介面 |
+| `any` | `interface{}` 別名（1.18+） |
+| `comparable` | 可比較型別約束（1.18+） |
+
+
 ### 常用函數
 
 | 函數 | 說明 |
@@ -19,23 +37,6 @@
 | `min(x, y, ...)` | 回傳最小值（1.21+） |
 | `max(x, y, ...)` | 回傳最大值（1.21+） |
 
-### 內建型別
-
-| 型別 | 說明 |
-|-|-|
-| `bool` | 布林值 |
-| `byte` | `uint8` 別名 |
-| `rune` | `int32` 別名，代表 Unicode code point |
-| `int`, `int8`, `int16`, `int32`, `int64` | 有號整數 |
-| `uint`, `uint8`, `uint16`, `uint32`, `uint64` | 無號整數 |
-| `uintptr` | 儲存指標的整數型別 |
-| `float32`, `float64` | 浮點數 |
-| `complex64`, `complex128` | 複數 |
-| `string` | 字串 |
-| `error` | 錯誤介面 |
-| `any` | `interface{}` 別名（1.18+） |
-| `comparable` | 可比較型別約束（1.18+） |
-
 ### 除錯函數
 > `print`、`println` 為內建 debug 函數，輸出至 stderr<br>
 > 正式環境請用 `fmt` 或 `log/slog`（1.21+）
@@ -44,8 +45,6 @@
 |-|-|
 | `print(args...)` | 輸出至標準錯誤（僅供除錯） |
 | `println(args...)` | 輸出至標準錯誤並換行（僅供除錯） |
-
-***
 
 ### `Slice` & `Array`
 
