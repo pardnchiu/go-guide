@@ -5,16 +5,17 @@
 
 ## 內容結構
 
-### 核心語言
+### 核心語言與執行環境
 
-- [builtin](./core-language-and-runtime/builtin.md) - 內建函數與型別
+- [types](./core-language-and-runtime/types.md) - Slice、Array、Map 與型別
+- [channel-select](./core-language-and-runtime/channel-select.md) - Channel 與 Select 並發控制
 - [runtime](./core-language-and-runtime/runtime.md) - Goroutine、記憶體、GC 與系統資訊
 - [runtime/debug](./core-language-and-runtime/runtime-debug.md) - Build 資訊、GC 調校、Stack dump
-- [runtime/metrics](./core-language-and-runtime/runtime-metrics.md) - 運行時性能指標
 - [runtime/pprof](./core-language-and-runtime/runtime-pprof.md) - CPU 與記憶體 profiling
+- [runtime/metrics](./core-language-and-runtime/runtime-metrics.md) - 運行時性能指標
 
 ## 版本說明
 
-- 文件內容以 **Go 1.20+** 為主
+- 文件內容以 **Go 1.20+** 後為主
 - 主要針對標準庫與常用庫
 - 標註新版本特性（如 1.21+）
