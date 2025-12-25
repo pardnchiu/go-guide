@@ -1,5 +1,5 @@
 ## `runtime`
-> goroutine 控制、記憶體管理、GC
+> Goroutine、記憶體、GC 與系統資訊
 
 ### 常用函數
 

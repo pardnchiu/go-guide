@@ -8,6 +8,10 @@
 ### 核心語言
 
 - [builtin](./core-language-and-runtime/builtin.md) - 內建函數與型別
+- [runtime](./core-language-and-runtime/runtime.md) - Goroutine、記憶體、GC 與系統資訊
+- [runtime/debug](./core-language-and-runtime/runtime-debug.md) - Build 資訊、GC 調校、Stack dump
+- [runtime/metrics](./core-language-and-runtime/runtime-metrics.md) - 運行時性能指標
+- [runtime/pprof](./core-language-and-runtime/runtime-pprof.md) - CPU 與記憶體 profiling
 
 ## 版本說明
 

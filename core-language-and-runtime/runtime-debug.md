@@ -27,7 +27,7 @@
     
     // Go version: go1.25.1
     // Main module: myapp@v1.0.0
-    // Dependency: github.com/gin-gonic/gin@v1.9.1
+    // Dependency: github.com/pardnchiu/go-scheduler@v1.2.0
     ```
 - 調整 GC 行為
     ```go
@@ -41,7 +41,7 @@
     // 停用自動 GC (需手動呼叫 runtime.GC())
     debug.SetGCPercent(-1)
     ```
-- 設定記憶體限制 (1.19+)
+- 設定記憶體限制
     ```go
     debug.SetMemoryLimit(1 << 30)           // 限制程式最多使用 1 GB 記憶體
 

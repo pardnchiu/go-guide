@@ -1,5 +1,5 @@
-### `runtime/metrics`（1.16+）
-> 細粒度 runtime metrics API
+### `runtime/metrics`
+> 運行時性能指標
 
 #### 常用函數
 
